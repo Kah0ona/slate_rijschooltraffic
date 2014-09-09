@@ -1,0 +1,40 @@
+.ups {
+	font-size: 18px;
+	font-weight:bold;
+	list-style: none;
+	letter-spacing:1px;
+	margin-left: 35px;
+}
+
+.ups li {
+	padding:5px;
+	background: url("http://rijschool-traffic.lokaalgevonden.nl/wp-content/themes/slate-0.3.1_rijschool-traffic/img/svg/vink.svg") left center no-repeat;
+	padding-left: 25px;
+}
+
+.Ups-container {
+	padding: rem(50px) 0;
+}
+
+.fb-like-box {
+	float:right;
+}
+
+@media all and (max-width: 700px){
+	.ups {
+		margin-left: 35px;
+	}
+
+	.fb-like-box {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.Ups-container {
+		text-align: center;
+	}
+
+	.Ups-container ul li {
+		text-align: center;
+	}
+}

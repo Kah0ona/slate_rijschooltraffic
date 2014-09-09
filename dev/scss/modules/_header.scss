@@ -1,0 +1,58 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+
+.Header {
+  background-size: cover;
+  background-color: white;
+}
+
+
+
+.Header-contact {
+	text-align: right;
+	margin-top: 30px;
+}
+
+// ----- Contact bar ----- //
+
+.Header-logo {
+	padding: 15px 0px;
+}
+
+.Header-buttons {
+	margin-top:35px;
+}
+
+.Header-first-button {
+	margin-right: 10px;
+}
+
+@media all and (max-width: 700px) { 
+    .Header-logo  {
+        text-align: center;
+    }
+
+    .Header-contact  {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .Header-buttons  {
+        text-align: center;
+        margin-top: 15px;
+        img {
+        	width: 40px;
+        }
+    }
+}
+
+@media all and (max-width: 900px) { 
+    .Header-buttons  {
+        img {
+        	width: 40px;
+        }
+    }
+}

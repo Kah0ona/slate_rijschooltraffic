@@ -1,0 +1,59 @@
+// *************************************
+//
+// Nav-Toggle
+// -> Nav-toggle
+//
+// *************************************
+
+.Navigation-menuToggle  {
+  display: block;
+  @media all and (min-width: 980px) {
+    display: none;
+  }
+}
+
+.Navigation-menuToggle {
+	//	background-color: white;
+	cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 7px;
+  margin-top: 7px;	
+  background-color: transparent;
+  border: 3px solid white;
+  cursor: pointer;
+  float: right;    
+	&:hover {
+		//	background-color: #fafafa;
+	}
+}
+
+
+.Nav-toggle {
+  .Icon.Icon--inline {
+    fill: white;
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+    height: 25px;
+    width: 25px;
+
+  }
+}
+#js-navCollapseTarget {
+  @media all and (max-width: 980px) {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1040px) {  
+  #js-navCollapse {
+    display: none;
+  }
+
+}
+@media all and (max-width: 1040px) {  
+  #js-navCollapse {
+    display: block;
+  }
+}

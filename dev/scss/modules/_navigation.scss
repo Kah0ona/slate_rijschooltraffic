@@ -1,0 +1,319 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+  @include clearfix;
+  @include background-image(linear-gradient(#fbe31a, #d9b20f));
+  text-align: center;
+  position: relative;
+  margin: 0;
+
+
+}
+
+.Nav-top {
+  background-color: white;
+  height: 110px;
+}
+
+.Nav-bot {
+  height: 65px;
+
+}
+
+.Nav-tel {
+  float: right;
+}
+
+.logo-top, .logo-bot {
+  float: left;
+}
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+.Navigation-link.is-active {
+  color: #ccc;
+}
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- List item ----- //
+
+.Navigation-listItem {
+ display: block;
+ float: left;
+ &:first-of-type {
+   margin-left: 0;
+ }
+ &:last-of-type {
+   margin-right: 0;
+   .Navigation-link {
+      border-right: 0px solid black;
+   }
+ }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+  color: black;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-right: 1px solid black;
+  padding: 15px 15px;
+  display: block;
+  -webkit-transition:all 0.2s ease;
+  -moz-transition:all 0.2s ease;
+  -o-transition:all 0.2s ease;
+  
+  
+  &:hover, &:focus {
+    color: #ccc;
+    text-decoration: none;
+  }
+}
+
+.Navigation-link--invertedBold {
+ color: $c-white; 
+ font-weight: bold;
+}
+
+
+.Navigation-list.is-hidden {
+   display: none;
+}
+
+.Navigation-list {
+   display: block;
+   margin: 0;
+}
+
+//---------------------------------------
+// ------ ul dropdown menu style --------
+
+.Navigation-listItem--hasDropdown {
+  position: relative;
+  text-decoration: none;
+}
+
+ul.Navigation-list--dropdown {
+  display: block;
+  height: auto;
+   position: absolute;
+  background-color: #BBB;
+  border: 1px solid white;
+  border-top: 0px solid white;
+  border-bottom: 0px solid white;
+  width: auto;
+   line-height: 40px;
+   top: 45px;
+   left: -5px;
+   z-index: 110;
+   box-shadow: 0px 10px 15px -7px rgba(0, 0, 0, 0.5);
+  
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    top: 43px;
+    
+    a {
+      font-weight: 100 !important;
+    }
+  }
+  
+  li.Navigation-listItem {
+    display: block;
+    padding: 0 2px;
+    width: 215px;
+    text-align: center;         
+    a {
+      background-color: transparent;
+      border: 0px solid;
+    }   
+  } 
+}
+//---------------------------------------
+
+.Nav-tel {
+  font-weight: 600;
+  line-height: 20px;
+  color: #BBB; 
+  p {
+    font-size: 22px;
+    color: #BBB;
+  } 
+}
+
+.logo-top {
+  max-width: 305px;
+  margin-top: 15px;
+}
+
+.logo-bot {
+  max-width: 295px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.Nav-tel-ico {
+  float: right;
+  width: 100px;
+  img {
+    width: 100%;
+    
+  }
+  
+  .ico-mob {
+    float: right;
+    width: 35px;
+    margin: 10px 10px 0 0;
+
+  }
+  
+  .ico-fax {
+    float: right;
+    width: 51px;
+    margin: 5px 5px 0 0;    
+  }
+}
+
+
+.Bot-Nav {
+  height: 58px;
+  position: relative;
+  @include background-image(linear-gradient(#fbe31a, #d9b20f));
+}
+
+
+//======================================================
+//          @media queries - Responsiveness
+//======================================================
+@media all and (max-width: 1040px){
+ 
+}
+
+
+@media all and (max-width: 1040px) {
+  .Nav-tel {
+    display: none;
+  }
+  .Bot-Nav {
+    height: auto;
+    min-height: 58px;
+  }
+  ul.Navigation-list {
+    position: absolute;
+    .Navigation-listItem {
+      display: block;
+    }
+  }
+  
+  .Navigation {
+    display: none;
+    #js-navCollapseTarget {
+      display: none;
+      position: relative;
+      top: 65px;
+      left: 0;
+      margin: 0;
+      width: 100%;
+      box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.3) inset;
+  
+      ul.Navigation-list {
+        position: static;
+        background-color: rgba(0, 78, 117, 1);
+        border: 0px solid;
+        box-shadow: 0 0 0 #fff;
+
+        
+        .Navigation-listItem {
+          width: 100%;
+          &:first-of-type a {
+            box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.07) inset;
+          }
+
+        }
+        .Navigation-link {
+          line-height: 35px;
+          font-size: 15px;
+        }
+      }
+      
+      .Navigation-listItem {
+        text-align: center;
+  
+        &:first-of-type a {       
+          box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.1) inset;
+          padding-top: 10px;  
+        }
+
+        &:last-of-type a {              
+          box-shadow: 0px 15px 20px -18px rgba(0, 0, 0, 0.6);
+          border-bottom: 0px solid;
+        }
+        
+        .Navigation-link {
+          display: block;
+          line-height: 58px;
+          font-size: 20px;
+          border: 0px solid;
+          font-weight: 400;
+          letter-spacing: 1.7px;
+          border-bottom: 1px solid #FFF;         
+          &:hover {
+            background-color: #1e719a;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 500px) { 
+  .logo-top {
+    width: 220px;
+    margin-top: 38px;
+  }
+  
+  .logo-bot {
+    margin-top: 16px;
+    width: 210px;
+  }
+}
+
+@media all and (max-width: 390px) { 
+  .logo-top {
+    width: 180px;
+    margin-top: 48px;
+  }
+  
+  .logo-bot {
+    margin-top: 20px;
+    width: 170px;
+  }
+}

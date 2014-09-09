@@ -1,0 +1,45 @@
+.Aanmelden {
+	background-color: #ecebeb;
+	padding: rem(40px) 0;
+	border-top: 2px solid #706f6f;
+}
+
+.Aanmelden-image {
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 18px;
+	color: $c-black;
+	font-weight: bold;
+}
+
+.Aanmelden-button {
+	border-radius: 10px;
+	@include background-image(linear-gradient(#fbe31a, #d9b20f));
+	color: #373737;
+	font-size: 24px;
+	color: black;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.47);
+	padding: 10px 0;
+	font-weight:bold;
+	letter-spacing:1px;
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+	position: relative;
+	top: -72px;
+}
+
+.Aanmelden-button a {
+	color: black;
+	text-decoration: none;
+}
+
+@media all and (max-width: 650px) { 
+    .Aanmelden-image {
+    	margin-top: 10px;
+    	width: 200px;
+    }
+    .Proefles-button  {
+
+    }
+}

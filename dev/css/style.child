@@ -1,0 +1,12 @@
+/*
+Theme Name: slate-0.3.1_rijschool-traffic
+Theme URI: https://github.com/Kah0ona/slate_rijschooltraffic
+Description: a clean slate - rijschool-traffic child theme
+Version: 0.3.1
+Author: Sam Taal
+Author URI: http://www.lokaalgevonden.nl
+Tags: slate
+Template: slate-0.3.1
+*/
+
+@import url('../slate-0.3.1/style.css');

@@ -1,0 +1,28 @@
+.Home-content {
+	background-color: #343434;
+	padding: rem(20px) 0;
+}
+
+.Home-content h1 {
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #efd116
+}
+
+.Home-content p {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.Home-content-button a {
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-decoration: none;
+	background-color: #efd116;
+	padding: 7px 10px;
+	border-radius: 10px;
+	float: right;
+}

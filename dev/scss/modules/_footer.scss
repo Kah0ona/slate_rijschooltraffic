@@ -1,0 +1,75 @@
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.Footer-inner {
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+
+.Footer {
+	padding: rem(40px) 0;
+	background-color: white;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+}
+
+.Footer h1 {
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #efd116
+}
+
+.Footer p {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.Footer a {
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-decoration: none;
+	background-color: #efd116;
+	padding: 7px 10px;
+	border-radius: 10px;
+	float: right;
+}
+
+.Socket {
+	background-color: #343434;
+	color: white;
+	text-align:center;
+}
+
+.Socket span {
+	padding:0;
+	margin: 0;
+}
+
+.Socket .blue {
+	color: #094981;
+	font-weight:bold;
+}
+
+.Socket .orange {
+	color: #f9971a;
+	font-weight:bold;
+}
+
+.Socket a {
+	padding:0;
+	margin: 0;
+}
