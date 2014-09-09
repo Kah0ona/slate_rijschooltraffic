@@ -18,9 +18,9 @@ Template Name: App page
 					<?php // the_content(); ?>
 					Bekijk nu ook de informatie van ons bedrijf vanuit de app! De app is beschikbaar in Google Play voor Android apparaten en als webapp voor iOS van Apple telefoons.
 
-					Voor Apple iPhone gebruikers: scan de QR-code of surf naar de website. 
+					Voor Apple iPhone gebruikers: scan de QR-code of surf naar de website. <br/><br/>
 
-					<a href="#">Download de app hier</a>
+					<a href="#">Download de app hier</a><br/><br/>
 
 
 
