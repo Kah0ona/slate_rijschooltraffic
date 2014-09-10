@@ -53,7 +53,7 @@
         <div class="Header-container u-gridContainer">
             <div class="u-gridRow">
                 <div class="Header-logo u-gridCol4">
-                    <a href="index.php"><img src="/wp-content/themes/slate-0.3.1_rijschool-traffic/img/logo.jpg" /></a>
+                    <a href="index.php"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.jpg" /></a>
                 </div>
                 <div class="Header-contact u-gridCol6">
                     <a href="tel:0345476755" class="Button Button--default">
@@ -72,10 +72,10 @@
                 </div>
                 <div class="Header-buttons u-gridCol2">
                     <a class="Header-first-button" target="_blank" href="https://www.facebook.com/">
-                        <img src="http://rijschool-traffic.lokaalgevonden.nl/wp-content/themes/slate-0.3.1_rijschool-traffic/img/svg/facebook.svg" width="55px" height:"55px;">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/facebook.svg" width="55px" height:"55px;">
                     </a>
                     <a target="_blank" href="#">
-                        <img src="http://rijschool-traffic.lokaalgevonden.nl/wp-content/themes/slate-0.3.1_rijschool-traffic/img/svg/digid.svg" width="55px" height:"55px;">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/digid.svg" width="55px" height:"55px;">
                     </a>
                 </div>
             </div>
@@ -89,7 +89,7 @@
     <div class="Bot-Nav">
         <div class="u-gridContainer">
 
-            <div class="Nav-toggle">
+            <div class="Nav-toggle u-cf">
                 <a class="Navigation-menuToggle" id="js-navCollapse">
                     <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                         <use xlink:href="#icon-menu2"></use>
@@ -100,13 +100,13 @@
             <?php include 'includes/navigation.php'; ?>
             
             <div class="Mob-contact-ico">
-                <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0653622040">
+                <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0652000383">
                     <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                         <use xlink:href="#icon-phone"></use>
                     </svg>
                 </a>
             
-                <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:rioolbeheer@amerongen.info">
+                <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@rijschool-traffic.nl">
                     <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                         <use xlink:href="#icon-envelope"></use>
                     </svg>

@@ -34,6 +34,7 @@
 			position: absolute;
 			li.Navigation-listItem {
 				display: block;
+				float: none;
 				line-height: 30px;
 				border-left: 0 solid;
 				&:last-of-type {
@@ -41,13 +42,13 @@
 				}
 
 				&:hover {
-					background-color: $c-blue;
+					//background-color: $c-blue;
 
 					-webkit-transition:all 0.2s ease;
 					-moz-transition:all 0.2s ease;
 					-o-transition:all 0.2s ease;
 					a.Navigation-link {
-						color: $c-blue;
+					//	color: $c-blue;
 						text-decoration: none;
 
 					}
@@ -97,6 +98,7 @@
 			left: 10px;				
 			.Icon--inline {
 				margin: -4px;
+				margin-top: 5px;
 			}
 		}
 
@@ -104,13 +106,15 @@
 			left: 55px;				
 			.Icon--inline {
 				margin: -5px;
+				margin-top: 5px;
 			}
 		}
 
 		.mailsvg {
 			left: 100px;				
 			.Icon--inline {
-				margin: -6px;
+				margin: -4px;
+				margin-top: 5px;
 			}
 		}
 	}

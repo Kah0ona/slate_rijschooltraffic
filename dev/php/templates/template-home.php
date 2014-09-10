@@ -71,7 +71,7 @@ Template Name: Homepage
 					<h1>Onze visie</h1>
 					<p>Het volgen van een goede rijopleiding is een investering in uw eigen veiligheid. 
 						Wij verzorgen goed gestructureerde rijlessen en maken gebruik van de meest nieuwe 
-						methodieken, zodat u perfect opgeleidt wordt. 
+						methodieken, zodat u perfect opgeleid wordt. 
 					</p>
 				</div>
 				<div class="u-gridCol6">

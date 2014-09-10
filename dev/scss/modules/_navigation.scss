@@ -233,9 +233,8 @@ ul.Navigation-list--dropdown {
   }
   
   .Navigation {
-    display: none;
     #js-navCollapseTarget {
-      display: none;
+      display: none; 
       position: relative;
       top: 65px;
       left: 0;
