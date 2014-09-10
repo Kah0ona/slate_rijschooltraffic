@@ -1,23 +1,8 @@
 	<div class="Footer">
 		<div class="u-gridContainer">
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
-			<div class="Footer-inner u-gridRow">
-				<div class="u-gridCol5">
-                    <img src="/wp-content/themes/slate-0.3.1_rijschool-traffic/img/logo.jpg" /></br>
-    				Bosuilstraat 35</br>
-    				4105 WD Culemborg
-				</div>
-				<div class="u-gridCol4">
-					Contact</br>
-					</br></br>
-					0345 47 67 55</br>
-					06 52 00 09 83</br>
-					info@rijschool-traffic.nl
-				</div>
-				<div class="u-gridCol3">
-				Sitemap</br></br>		
+			<div class="Footer-inner u-gridRow">	
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
-				</div>
 			</div>
 			<?php endif; ?>
 		</div>
@@ -33,7 +18,7 @@
 			</p>
 		</div>
 	</div>
-
+	
   <!-- Load jquery from google CDN if possible, with fallback to cdnjs -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"><\/script>')</script>
