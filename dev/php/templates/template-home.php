@@ -32,7 +32,7 @@ Template Name: Homepage
 					<li>Spoedopleidingen</li>
 					<li>Faalangst examen</li>
 					<li>Gratis proefles</li>
-				</ul>
+				</ul> 
 			</div>
 			<div class="u-gridCol6">
 				<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="320" data-height="376" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>

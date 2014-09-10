@@ -81,7 +81,7 @@
             </div>
         </div>
     </div>
-
+ 
     <!-- Main navigation -->
     <?php //include 'includes/navigation.php'; ?>
 
