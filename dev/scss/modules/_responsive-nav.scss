@@ -14,7 +14,7 @@
   border-radius: 7px;
   margin-top: 7px;	
   background-color: transparent;
-  border: 3px solid white;
+  border: 2px solid black;
   cursor: pointer;
   float: right;    
 	&:hover {
@@ -24,7 +24,7 @@
 
 .Nav-toggle {
   .Icon.Icon--inline {
-    fill: white;
+    fill: black;
     display: block;
     margin: auto;
     margin-top: 4px;
@@ -58,11 +58,11 @@
 	 #js-navCollapseTarget {
 		display: none;
         position: relative;
-        top: 65px;
+        color: black;
         left: 0;
         margin: 0;
         width: 100%;
-        box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.3) inset;
+
 	 }
 
 	 .Bot-Nav {
@@ -89,7 +89,6 @@
 
 	.Navigation-list {
 		position: static;
-        background-color: rgba(0, 78, 117, 1);
         border: 0px solid;
         box-shadow: 0 0 0 #fff;
 
@@ -101,7 +100,7 @@
 		display: block;
 		float: none;
 		line-height: 30px;
-		border-left: 0 solid;
+		border: 0;
 		width: 100%;
 
 		&:last-of-type {
@@ -122,12 +121,10 @@
 		}
 
         &:first-of-type a {       
-          box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.1) inset;
           padding-top: 10px;  
         }
 
         &:last-of-type a {              
-          box-shadow: 0px 15px 20px -18px rgba(0, 0, 0, 0.6);
           border-bottom: 0px solid;
         }
 
@@ -155,7 +152,7 @@
 		z-index: 5000;
 
 		a { 
-			border: 2px solid white;
+			border: 2px solid black;
 			position: absolute;
 			display: block;
 			width: 35px;
@@ -168,7 +165,7 @@
 			}
 
 			.Icon--inline {
-				fill: white;
+				fill: black;
 				width: 2em;
 				height: 2em;
 				padding-bottom: 1em;				
@@ -193,6 +190,14 @@
 
 		.mailsvg {
 			left: 100px;				
+			.Icon--inline {
+				margin: -4px;
+				margin-top: 5px;
+			}
+		}
+
+		.mobilesvg {
+			left: 55px;				
 			.Icon--inline {
 				margin: -4px;
 				margin-top: 5px;

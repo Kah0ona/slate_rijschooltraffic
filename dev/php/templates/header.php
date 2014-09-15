@@ -20,8 +20,11 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/ico/apple-touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_stylesheet_directory_uri(); ?>/ico/apple-touch-icon-iphone5.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_stylesheet_directory_uri(); ?>/ico/apple-touch-icon-retina.png">
 
     <!-- build:remove:expanded -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -53,9 +56,9 @@
         <div class="Header-container u-gridContainer">
             <div class="u-gridRow">
                 <div class="Header-logo u-gridCol4">
-                    <a href="index.php"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.jpg" /></a>
+                    <a href="http://www.rijschool-traffic.nl/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.jpg" /></a>
                 </div>
-                <div class="Header-contact u-gridCol6">
+                <div class="Header-contact u-gridCol5">
                     <a href="tel:0345476755" class="Button Button--default">
                         <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                             <use xlink:href="#icon-phone"></use>
@@ -70,12 +73,15 @@
                         <span>06 52 00 09 83</span>
                     </a>
                 </div>
-                <div class="Header-buttons u-gridCol2">
+                <div class="Header-buttons u-gridCol3">
                     <a class="Header-first-button" target="_blank" href="https://www.facebook.com/">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/facebook.svg" width="55px" height:"55px;">
                     </a>
-                    <a target="_blank" href="#">
+                    <a class="Header-first-button" target="_blank" href="http://www.digid.nl/">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/digid.svg" width="55px" height:"55px;">
+                    </a>
+                    <a href="/2todrive/">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/2todrive.png" width="55px" height:"55px;">
                     </a>
                 </div>
             </div>
@@ -100,9 +106,15 @@
             <?php include 'includes/navigation.php'; ?>
             
             <div class="Mob-contact-ico">
-                <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0652000383">
+                <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0345476755">
                     <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                         <use xlink:href="#icon-phone"></use>
+                    </svg>
+                </a>
+
+                <a class="Button Button--transparent u-textInverted u-noLine mobilesvg" href="tel:0652000383">
+                    <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                        <use xlink:href="#icon-mobile"></use>
                     </svg>
                 </a>
             

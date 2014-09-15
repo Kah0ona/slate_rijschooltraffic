@@ -14,49 +14,53 @@ Template Name: Homepage
 	<div class="Welcome" >Welkom bij Rijschool Traffic Culemborg</div>
 	<div class="Proefles" >
 		<div class="u-gridContainer">
-			<a href="#">
+			<a href="/aanmelden/">
 				<div class="Proefles-button">Vraag een gratis proefles aan!</div>
 			</a>
 		</div>
 	</div>
-	<div class="Ups-container u-gridContainer">
-		<div class="u-gridRow">
-			<div class="u-gridCol6">
-				<ul class="ups" viewBox="0 0 50 20">
-					<li>Al ruim 18 jaar ervaring</li>
-					<li>Hoog slagingspercentage</li>
-					<li>Termijnbetaling mogelijk</li>
-					<li>Rijlessen vanaf 16,5 jaar</li>
-					<li>Ook in weekenden/avonden</li>
-					<li>Altijd dezelfde instructeur</li>
-					<li>Spoedopleidingen</li>
-					<li>Faalangst examen</li>
-					<li>Gratis proefles</li>
-				</ul> 
-			</div>
-			<div class="u-gridCol6">
-				<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="320" data-height="376" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+	<div class="full-width-white">	
+		<div class="Ups-container u-gridContainer">
+			<div class="u-gridRow">
+				<div class="u-gridCol6">
+					<ul class="ups" viewBox="0 0 50 20">
+						<li>Al ruim 18 jaar ervaring</li>
+						<li>Hoog slagingspercentage</li>
+						<li>Termijnbetaling mogelijk</li>
+						<li>Rijlessen vanaf 16,5 jaar</li>
+						<li>Weekenden en avonden</li>
+					</ul> 
+				</div>
+				<div class="u-gridCol6 secondUps">
+					<ul class="ups" viewBox="0 0 50 20">
+						<li>Altijd dezelfde instructeur</li>
+						<li>Aanhanger rijbewijs</li>
+						<li>Spoedopleidingen</li>
+						<li>Faalangst examen</li>
+						<li>Gratis proefles</li>
+					</ul> 
+				</div>
 			</div>
 		</div>
 	</div>
 	<div class="Aanmelden">
 		<div class="u-gridContainer">
-			<a href="#"><div class="Aanmelden-button">Aanmelden</div></a>
+			<a href="/aanmelden/"><div class="Aanmelden-button">Aanmelden</div></a>
 			<div class="Advert u-gridRow">
 				<div class="Aanmelden-image u-gridCol4">
-					 <a target="_blank" href="#">
+					 <a href="/opleidingen-2/auto/">
 						<img width="250" height="250" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/rijbewijs.svg">
 					</a></br>
 					Rijbewijs			
 				</div>
 				<div class="Aanmelden-image u-gridCol4">
-					<a target="_blank" href="#">
+					<a href="/opleidingen-2/aanhanger-e-achter-b/">
 						<img width="250" height="250" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/aanhang.svg">
 					</a></br>
 					Aanhanger
 				</div>
 				<div class="Aanmelden-image u-gridCol4">
-					<a target="_blank" href="#">
+					<a href="/app/">
 						<img width="250" height="250" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/phone.svg">
 					</a></br>
 					Traffic App
@@ -81,7 +85,7 @@ Template Name: Homepage
 						advies. Dat is hoe de opleidingen bij autorijschool Traffic beginnen. 
 					</p>
 				<div class="Home-content-button">
-				<a href="#">
+				<a href="/opleidingen-2/auto/">
 						Meer info >
 				</a>
 			</div>

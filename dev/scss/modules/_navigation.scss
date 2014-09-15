@@ -8,7 +8,6 @@
 .Navigation {
   @include clearfix;
   @include background-image(linear-gradient(#fbe31a, #d9b20f));
-  text-align: center;
   position: relative;
   margin: 0;
 
@@ -21,7 +20,7 @@
 }
 
 .Nav-bot {
-  height: 65px;
+  height: 66px;
 
 }
 
@@ -47,7 +46,7 @@
 // -------------------------------------
 
 .Navigation-link.is-active {
-  color: #ccc;
+  color: #444;
 }
 
 // -------------------------------------
@@ -86,7 +85,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   border-right: 1px solid black;
-  padding: 15px 15px;
+  padding: 13px 15px;
   display: block;
   -webkit-transition:all 0.2s ease;
   -moz-transition:all 0.2s ease;
@@ -94,9 +93,13 @@
   
   
   &:hover, &:focus {
-    color: #ccc;
+    color: #888;
     text-decoration: none;
   }
+}
+a .Navigation-link {
+  font-weight: bold;
+  margin-left: 5px;
 }
 
 .Navigation-link--invertedBold {
@@ -114,6 +117,10 @@
    margin: 0;
 }
 
+.Navigation svg {
+   height: 35px;
+}
+
 //---------------------------------------
 // ------ ul dropdown menu style --------
 
@@ -126,33 +133,38 @@ ul.Navigation-list--dropdown {
   display: block;
   height: auto;
    position: absolute;
-  background-color: #BBB;
-  border: 1px solid white;
-  border-top: 0px solid white;
-  border-bottom: 0px solid white;
-  width: auto;
+  width: 100%;
    line-height: 40px;
-   top: 45px;
-   left: -5px;
    z-index: 110;
-   box-shadow: 0px 10px 15px -7px rgba(0, 0, 0, 0.5);
+   top: 40px;
+   margin-top: 17px;
+   background: #d9b20f;
+   opacity: 0.8;
+   
+   color: white;
+
   
   @media screen and (-webkit-min-device-pixel-ratio:0) {
     top: 43px;
     
     a {
-      font-weight: 100 !important;
+
     }
   }
   
   li.Navigation-listItem {
     display: block;
-    padding: 0 2px;
-    width: 215px;
-    text-align: center;         
+    padding: 0 2px;  
+    font-size: 12px;
+    margin: 0 auto;
+    border:0;
+    font-weight:bold;
+    font-weight: bold;
+   color: white;       
     a {
       background-color: transparent;
       border: 0px solid;
+      font-size: 12px;
     }   
   } 
 }
@@ -203,16 +215,41 @@ ul.Navigation-list--dropdown {
 
 
 .Bot-Nav {
-  height: 58px;
+  height: 60px;
   position: relative;
   @include background-image(linear-gradient(#fbe31a, #d9b20f));
 }
 
+.Navigation svg {
+   height: 27px;
+   fill: black;
+}
 
 //======================================================
 //          @media queries - Responsiveness
 //======================================================
 @media all and (max-width: 1040px){
- 
+ .Navigation-link {
+    border:0;
+    font-weight: bold;
+  }
+
+  .Navigation {
+    background: transparent;
+    text-align: center;
+  }
+
+  .Navigation svg {
+   height: 35px;
+   fill: black;
+  }
+
+  ul.Navigation-list--dropdown {
+    position: static;
+  }
+
+  .mobilesvg {
+    margin-right: 20px;
+  }
 }
 

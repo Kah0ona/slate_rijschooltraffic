@@ -4,6 +4,7 @@
 	@include span-columns(4);
 	@media screen and(max-width: 980px){
 		@include span-columns(12);
+		margin-top:50px;
 	}
 }
 
@@ -58,14 +59,26 @@
 .Socket .blue {
 	color: #094981;
 	font-weight:bold;
+	margin:0;
+	padding:0;
 }
 
 .Socket .orange {
 	color: #f9971a;
 	font-weight:bold;
+position: relative;
+left:-3px;
 }
 
 .Socket a {
 	padding:0;
 	margin: 0;
 }
+
+@media screen and(max-width: 980px){
+		.textwidget {
+			border-bottom: 1px solid black;
+			text-align: center;
+			padding-bottom: 20px;
+		}
+	}
