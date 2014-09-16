@@ -19,9 +19,10 @@ Template Name: Landingspage
 			</a>
 		</div>
 	</div>
-	<div class="Ups-container u-gridContainer">
+	<div class="full-width-white">
+		<div class="Ups-container u-gridContainer">
 		<div class="u-gridRow">
-			<div class="u-gridCol6">
+				<div class="u-gridCol6">
 				<ul class="ups" viewBox="0 0 50 20">
 					<li>Al ruim 18 jaar ervaring</li>
 					<li>Hoog slagingspercentage</li>
@@ -33,16 +34,17 @@ Template Name: Landingspage
 					<li>Faalangst examen</li>
 					<li>Gratis proefles</li>
 				</ul>
-			</div>
-			<div class="u-gridCol6">
+				</div>
+				<div class="u-gridCol6">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<h2><?php the_title(); ?></h2>
 					<?php the_content(); ?>
 				<?php endwhile; endif; ?>
 					
+				</div>
 			</div>
 		</div>
-	</div>
+	</div>		
 	<div class="Aanmelden">
 		<div class="u-gridContainer">
 			<a href="#"><div class="Aanmelden-button">Aanmelden</div></a>

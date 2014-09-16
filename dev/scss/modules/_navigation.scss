@@ -136,11 +136,12 @@ ul.Navigation-list--dropdown {
   width: 100%;
    line-height: 40px;
    z-index: 110;
-   top: 40px;
-   margin-top: 17px;
+   margin-top: 27px;
    background: #d9b20f;
-   opacity: 0.8;
-   
+   border-radius: 5px;
+   -webkit-box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow:    0px 0px 29px 0px rgba(0, 0, 0, 0.4);
+   box-shadow:         0px 0px 29px 0px rgba(0, 0, 0, 0.4);
    color: white;
 
   
@@ -155,7 +156,7 @@ ul.Navigation-list--dropdown {
   li.Navigation-listItem {
     display: block;
     padding: 0 2px;  
-    font-size: 12px;
+    font-size: 18px;
     margin: 0 auto;
     border:0;
     font-weight:bold;
@@ -164,7 +165,7 @@ ul.Navigation-list--dropdown {
     a {
       background-color: transparent;
       border: 0px solid;
-      font-size: 12px;
+      font-size: 13px;
     }   
   } 
 }
