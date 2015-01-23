@@ -20,11 +20,11 @@ Template Name: App page
 
 					Voor Apple iPhone gebruikers: scan de QR-code of surf naar de website. <br/><br/>
 
-					<a href="#">Download de app hier</a><br/><br/>
+					<a href="https://play.google.com/store/apps/details?id=com.wRijschoolTraffic">Download de app hier</a><br/><br/>
 
 
 
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/qr_code.png" />
+					<img width="200" src="<?php echo get_stylesheet_directory_uri(); ?>/img/l_traffic_rijschool_qr_code.png" />
 
 					<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 				</article>

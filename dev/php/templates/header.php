@@ -74,7 +74,7 @@
                     </a>
                 </div>
                 <div class="Header-buttons u-gridCol3">
-                    <a class="Header-first-button" target="_blank" href="https://www.facebook.com/">
+                    <a class="Header-first-button" target="_blank" href="https://www.facebook.com/rijschooltraffic">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/facebook.svg" width="55px" height:"55px;">
                     </a>
                     <a class="Header-first-button" target="_blank" href="http://www.digid.nl/">

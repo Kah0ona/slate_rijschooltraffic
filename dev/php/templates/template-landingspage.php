@@ -22,25 +22,32 @@ Template Name: Landingspage
 	<div class="full-width-white">
 		<div class="Ups-container u-gridContainer">
 		<div class="u-gridRow">
-				<div class="u-gridCol6">
-				<ul class="ups" viewBox="0 0 50 20">
-					<li>Al ruim 18 jaar ervaring</li>
-					<li>Hoog slagingspercentage</li>
-					<li>Termijnbetaling mogelijk</li>
-					<li>Rijlessen vanaf 16,5 jaar</li>
-					<li>Ook in weekenden/avonden</li>
-					<li>Altijd dezelfde instructeur</li>
-					<li>Spoedopleidingen</li>
-					<li>Faalangst examen</li>
-					<li>Gratis proefles</li>
-				</ul>
-				</div>
-				<div class="u-gridCol6">
+				<div class="u-gridCol12">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<h2><?php the_title(); ?></h2>
 					<?php the_content(); ?>
 				<?php endwhile; endif; ?>
 					
+				</div>
+			</div>
+						<div class="u-gridRow">
+				<div class="u-gridCol6">
+					<ul class="ups" viewBox="0 0 50 20">
+						<li>Al ruim 18 jaar ervaring</li>
+						<li>Hoog slagingspercentage</li>
+						<li>Termijnbetaling mogelijk</li>
+						<li>Rijlessen vanaf 16,5 jaar</li>
+						<li>Weekenden en avonden</li>
+					</ul> 
+				</div>
+				<div class="u-gridCol6 secondUps">
+					<ul class="ups" viewBox="0 0 50 20">
+						<li>Altijd dezelfde instructeur</li>
+						<li>Aanhanger rijbewijs</li>
+						<li>Spoedopleidingen</li>
+						<li>Faalangst examen</li>
+						<li>Gratis proefles</li>
+					</ul> 
 				</div>
 			</div>
 		</div>
